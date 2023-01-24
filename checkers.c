@@ -350,10 +350,6 @@ void render_checker(u16 *Frame, int pos_x, int pos_y) {
         	}
     	}
     }
-
-
-//    int index = VGA_WEIGHT * center_x + center_y;
-//    Frame[index] = 0xFF;
 }
 
 void render_map(u16 *Frame, int game[BOARD_SIZE][BOARD_SIZE]) {
